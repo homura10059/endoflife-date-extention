@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function IndexOptions() {
+const IndexOptions = () => {
 	const [data, setData] = useState("");
 
 	return (
@@ -18,6 +18,6 @@ function IndexOptions() {
 			<footer>Crafted by @PlasmoHQ</footer>{" "}
 		</div>
 	);
-}
+};
 
 export default IndexOptions;

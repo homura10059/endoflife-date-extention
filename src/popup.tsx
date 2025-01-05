@@ -2,7 +2,7 @@ import { useReducer } from "react";
 
 import "./style.css";
 
-function IndexPopup() {
+const IndexPopup = () => {
 	const [count, increase] = useReducer((c) => c + 1, 0);
 
 	return (
@@ -17,6 +17,6 @@ function IndexPopup() {
 			</span>
 		</button>
 	);
-}
+};
 
 export default IndexPopup;

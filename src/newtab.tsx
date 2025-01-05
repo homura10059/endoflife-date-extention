@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import "./style.css";
 
-function IndexNewtab() {
+const IndexNewtab = () => {
 	const [data, setData] = useState("");
 
 	return (
@@ -21,6 +21,6 @@ function IndexNewtab() {
 			<footer>Crafted by @PlasmoHQ</footer>
 		</div>
 	);
-}
+};
 
 export default IndexNewtab;
